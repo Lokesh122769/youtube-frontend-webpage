@@ -1,0 +1,217 @@
+
+.header{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px; 
+    background-color:white;
+
+    z-index: 1;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(204, 203, 203);
+
+
+ }
+
+ .thumbNail{
+   position:relative;
+  
+ }
+
+ .duration{
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 12px;
+
+   position:absolute;
+   background-color:black;
+   color:white;
+
+   bottom:10px;
+   right:8px;
+
+   padding:2px;
+   border-radius:3px;
+ }
+
+ 
+ .sideBar
+ {
+  
+   position:fixed;
+   left: 0;
+   top: 60px;
+   bottom:0;
+   width:200px;
+
+   border-right-style:solid;
+   border-right-width: 1px;
+   border-right-color:rgb(204, 203, 203);
+
+ }
+
+ .sidebar-link{
+    height:50px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    justify-content: center;
+    
+    transition: opacity 2s;
+ }
+
+ .sidebar-link:hover{
+  background-color: lightgray;
+  cursor: pointer;
+ }
+
+ .sidebar-link:active{
+  background-color: rgb(199, 195, 195);
+ }
+
+ .sideBar img {
+  margin-left: 10px;
+  height:30px;
+  width:30px;
+ }
+
+.bars{
+   margin-left: 20px;
+   height:30px;
+   margin-right: 35px;
+   cursor: pointer;
+
+}
+
+.youtube-photo{
+   height:30px;
+   width:120px;
+   cursor:pointer;
+   margin-right: 20px;
+}
+
+
+ .left{
+    display:flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .searchlogo{
+    height:31px;
+    width:60px;
+    margin-left:-1px;
+    margin-right:30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+   }
+
+   .searchlogoicon{
+      padding:3px;
+      height:20px;
+      width:30px;
+     
+  
+   }
+
+ .voicelogobutton{
+   cursor: pointer;
+   height:30px;
+   width:30px;
+   margin-left:30px;
+   border-radius: 15px;
+   border-width:1px;
+   border-color:gray;
+   border-style:solid;
+ }
+
+ .voicelogo{
+   height:14px;
+   width:14px;
+   border-radius:10px;
+   margin-left:-1px;
+   margin-top: 2px;
+ }
+
+
+ .middle{
+   display: flex;
+    flex: 1;
+    align-items:center;
+    margin-left:50px;
+    margin-right:70px;
+    max-width:550px;
+ }
+
+.search-bar{
+   width: 0;
+   flex: 1;
+   height:27px;
+   padding-left:10px;
+   border-width:1px;
+   font-size:15px;
+   
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+
+   position:relative;
+   
+}
+
+ .right{
+    flex-shrink: 0;
+    width:300px;
+    display:flex;
+    
+    align-items: center;
+    justify-content: space-around;
+
+ }
+
+ .plus{
+   height:28px;
+  margin-right:20px;
+  cursor: pointer;
+ }
+
+ .accountlogo{
+  height:28px;
+  cursor: pointer;
+ }
+
+ .notificationslogo{
+   height:25px;
+   cursor:pointer;
+ }
+
+ .notifications{
+   position:relative;
+ }
+
+ .notificationsCount{
+    
+    font-family: Roboto;
+    font-size:13px;
+    border-radius:10px;
+
+    padding-left: 4px;
+    padding-right:4px;
+   
+    margin-left:4px;
+    margin-top:2px;
+
+    position: absolute;
+    background-color: rgb(160, 10, 10);
+    color:white;
+    top:-3px;
+    right:-3px;
+ }
